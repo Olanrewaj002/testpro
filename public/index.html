@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <nav class="bg-gray-800 p-4 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-lg font-semibold"><img src="images/ben logo.png"></a>
+            <div class="block lg:hidden">
+                <button id="menu-btn" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex space-x-4">
+                <a href="#" class="text-gray-300 hover:text-white">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-white">About</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-white">Testimonials</a>
+                <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden">
+            <a href="#" class="block text-gray-300 hover:text-white px-2 py-1">Home</a>
+            <a href="#about" class="block text-gray-300 hover:text-white px-2 py-1">About</a>
+            <a href="#testimonials" class="block text-gray-300 hover:text-white px-2 py-1">Testimonials</a>
+            <a href="#" class="block text-gray-300 hover:text-white px-2 py-1">Contact</a>
+        </div>
+    </nav>
+
+    <div class="bg-cover h-96 bg-center" style="background-image: url('images/WhatsApp\ Image\ 2025-01-01\ at\ 08.52.03.jpeg');">
+        <div class="container text-center relative top-32 px-2">
+            <h1 class="text-4xl md:text-6xl font-bold text-white">Welcome to Digital Ben</h1>
+            <p class="mt-4 text-xl md:text-2xl text-white font-bold">Your trusted partner in digital learning courses</p>
+        </div>
+        <div class="text-center mt-8 relative top-32">
+            <a href="#product" class="bg-purple-700 hover:bg-black text-white font-bold py-6 px-6 rounded">
+                View Courses
+            </a>
+        </div>
+    </div>
+    <section id="about"  class="container mx-auto mt-8 py-16 px-4">
+        <h2 class="text-3xl font-bold text-gray-800 text-center">About Us</h2>
+        <p class="mt-4 text-lg text-gray-600 text-center">
+            At Digital Ben, we are dedicated to providing top-notch digital learning courses
+             that empower individuals to achieve their goals. Our team of experts curates
+              content that is both engaging and informative, ensuring that you gain the skills
+               you need to succeed in today's digital world. Join us on a journey of growth
+                and discovery.
+        </p>
+    </section>
+    <section id="product" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold text-gray-800 text-center">Our Products</h2>
+        <div class="mt-8 flex overflow-x-scroll space-x-4">
+            <div class="min-w-full md:min-w-1/3 lg:min-w-1/4 bg-white shadow-md rounded-lg p-4">
+                <img src="images/WhatsApp Image 2025-01-01 at 04.09.25 (1).jpeg" alt="Product 1" class="w-full h-96 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Ultimate Income Generator</h3>
+                    <p class="text-gray-600">by Jacob Kasiemobi</p>
+                    <div class="flex gap-4">
+                        <!-- <p class="text-gray-800 font-bold text-red-800 line-through">29,999</p> -->
+                        <p class="text-gray-800 font-bold">N20,000</p>
+                    </div>
+                    <a href="https://selar.co/p/699d45?affiliate=c86u9p" class="block bg-blue-800 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded mt-4">Buy Now</a>
+                </div>
+            </div>
+            <div class="min-w-full md:min-w-1/3 lg:min-w-1/4 bg-white shadow-md rounded-lg p-4">
+                <img src="images/WhatsApp Image 2025-01-01 at 04.09.25.jpeg" alt="Product 2" class="w-full h-96 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Affiliate Marketing for Beginners</h3>
+                    <p class="text-gray-600">by Clement Udoh</p>
+                    <div class="flex gap-4">
+                        <!-- <p class="text-gray-800 font-bold text-red-800 line-through">N9,999</p> -->
+                        <p class="text-gray-800 font-bold">N7,000</p>
+                    </div>
+                    <a href="https://selar.co/p/07f1m5?affiliate=4737x3" class="block bg-blue-800 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded mt-4">Buy Now</a>
+                </div>
+            </div>
+            <div class="min-w-full md:min-w-1/3 lg:min-w-1/4 bg-white shadow-md rounded-lg p-4">
+                <img src="images/WhatsApp Image 2025-01-01 at 04.09.26 (1).jpeg" alt="Product 3" class="w-full h-96 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Crypto & Forex Trading Dollar Combo</h3>
+                    <p class="text-gray-600">by Emmanuel Edekiowhe</p>
+                    <div class="flex gap-4">
+                        <!-- <p class="text-gray-800 font-bold text-red-800 line-through">N24,999</p> -->
+                        <p class="text-gray-800 font-bold">N20,000</p>
+                    </div>
+                    <a href="https://selar.co/p/8lx4?affiliate=unaw" class="block bg-blue-800 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded mt-4">Buy Now</a>
+                </div>
+            </div>
+            <div class="min-w-full md:min-w-1/3 lg:min-w-1/4 bg-white shadow-md rounded-lg p-4">
+                <img src="images/WhatsApp Image 2025-01-01 at 04.09.26 (2).jpeg" alt="Product 3" class="w-full h-96 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Ultimate Guide to Starting a Profitable Podcast in Africa</h3>
+                    <p class="text-gray-600">by Digital Assets Money</p>
+                    <div class="flex gap-4">
+                        <!-- <p class="text-gray-800 font-bold text-red-800 line-through">N9,999</p> -->
+                        <p class="text-gray-800 font-bold">N7,500</p>
+                    </div>
+                    <a href="https://selar.co/65181t?affiliate=x2rk" class="block bg-blue-800 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded mt-4">Buy Now</a>
+                </div>
+            </div>
+            <div class="min-w-full md:min-w-1/3 lg:min-w-1/4 bg-white shadow-md rounded-lg p-4">
+                <img src="images/WhatsApp Image 2025-01-01 at 08.47.00.jpeg" alt="Product 3" class="w-full h-96 object-cover rounded-t-lg">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-gray-800">Ghostwriting Income Generator</h3>
+                    <p class="text-gray-600">by Daniel Sampson</p>
+                    <div class="flex gap-4">
+                        <!-- <p class="text-gray-800 font-bold text-red-800 line-through">N39,999</p> -->
+                        <p class="text-gray-800 font-bold">N30,000</p>
+                    </div>
+                    <a href="https://dangig.selar.co/qelh?affiliate=awyd" class="block bg-blue-800 hover:bg-blue-700 text-white text-center font-bold py-2 px-4 rounded mt-4">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="testimonials" class="container mx-auto py-16 px-4">
+            <h2 class="text-3xl font-bold text-gray-800 text-center">Testimonials</h2>
+            <div class="relative mt-8">
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide">
+                        <p class="text-lg text-gray-600 text-center">"Digital Ben's courses have transformed my career. The content is top-notch and easy to follow."</p>
+                        <p class="text-gray-800 text-center mt-4">- Richard Mfon</p>
+                    </div>
+                    <div class="testimonial-slide">
+                        <p class="text-lg text-gray-600 text-center">"I highly recommend Digital Ben to anyone looking to improve their digital skills."</p>
+                        <p class="text-gray-800 text-center mt-4">- Chiamaka James</p>
+                    </div>
+                    <div class="testimonial-slide">
+                        <p class="text-lg text-gray-600 text-center">"The courses are well-structured and the instructors are very knowledgeable."</p>
+                        <p class="text-gray-800 text-center mt-4">- Femi Adebisi</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container mx-auto py-16 px-4">
+                <h2 class="text-3xl font-bold text-gray-800 text-center">Ready to Transform Your Career?</h2>
+                <div class="mt-8 flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                    <img src="images/pexels-divinetechygirl-1181233.jpg" alt="Ecommerce Card" class="w-full md:w-1/3 h-64 object-cover rounded-lg shadow-md">
+                    <div class="md:w-2/3 text-center md:text-left">
+                        <p class="text-lg text-gray-600 mb-4">Join hundreds of satisfied learners who have taken their careers to the next level with our comprehensive digital courses. Don't miss out on the opportunity to gain valuable skills and knowledge that will set you apart in the digital world.</p>
+                        <a href="#" class="bg-blue-800 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded relative top-6">Get Started Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class= "py-8">
+            <div class="container mx-auto text-center text-white">
+                <div class="mb-4">
+                    <!-- <p class="text-black">WhatsApp: +2348149128742</p> -->
+                    <!-- <a href="#" class="mx-2 text-gray-400 hover:text-white">
+                        <svg class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .733.592 1.324 1.325 1.324h11.495v-9.294h-3.125v-3.622h3.125v-2.672c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.794.143v3.24l-1.918.001c-1.504 0-1.794.715-1.794 1.763v2.313h3.587l-.467 3.622h-3.12v9.294h6.116c.733 0 1.325-.591 1.325-1.324v-21.351c0-.733-.592-1.325-1.325-1.325z"/>
+                        </svg>
+                    </a> -->
+                    <!-- <a href="#" class="mx-2 text-gray-400 hover:text-white">
+                        <svg class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.608 1.794-1.574 2.163-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.717 0-4.92 2.203-4.92 4.917 0 .385.045.76.127 1.122-4.087-.205-7.713-2.164-10.141-5.144-.423.725-.666 1.562-.666 2.457 0 1.694.863 3.188 2.175 4.065-.803-.026-1.56-.247-2.22-.616v.062c0 2.366 1.684 4.342 3.918 4.788-.41.111-.843.171-1.287.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.6 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.396 0-.787-.023-1.175-.068 2.179 1.397 4.768 2.212 7.548 2.212 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.015-.634.961-.695 1.8-1.562 2.46-2.549z"/>
+                        </svg>
+                    </a> -->
+                    <!-- <a href="#" class="mx-2 text-gray-400 hover:text-white">
+                        <svg class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c-5.488 0-9.837 4.449-9.837 9.837 0 4.354 2.82 8.065 6.73 9.373.492.09.672-.213.672-.476 0-.235-.009-.856-.014-1.68-2.742.597-3.32-1.32-3.32-1.32-.447-1.135-1.092-1.438-1.092-1.438-.892-.61.067-.598.067-.598.986.069 1.505 1.013 1.505 1.013.876 1.501 2.299 1.067 2.86.816.09-.635.343-1.067.624-1.313-2.19-.249-4.493-1.095-4.493-4.877 0-1.077.387-1.957 1.021-2.648-.103-.249-.443-1.254.097-2.614 0 0 .83-.266 2.72 1.016.79-.219 1.64-.328 2.485-.332.845.004 1.695.113 2.485.332 1.89-1.282 2.72-1.016 2.72-1.016.54 1.36.2 2.365.097 2.614.635.691 1.021 1.571 1.021 2.648 0 3.791-2.307 4.624-4.505 4.867.353.305.668.91.668 1.834 0 1.324-.012 2.392-.012 2.717 0 .264.18.568.676.472 3.91-1.308 6.73-5.019 6.73-9.373 0-5.388-4.449-9.837-9.837-9.837z"/>
+                        </svg>
+                    </a> -->
+                </div>
+                <p class="text-gray-400">&copy; 2023 Digital Ben. All rights reserved.</p>
+            </div>
+        </footer>
+
+        
+
+        <script src="index.js"></script>
+</body>
+</html>
